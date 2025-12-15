@@ -107,8 +107,6 @@ model3_results = model_3.predict(X_test_reshaped)
 model3_Overall_Accuracy = OverallAccuracy(model3_results, y_test)
 print("The overall results of the MLP model is " + str(model3_Overall_Accuracy))
 
-
-
 #Part 8
 #Poisoning
 # Code for generating poison data. There is nothing to change here.
